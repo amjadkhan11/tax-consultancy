@@ -36,11 +36,11 @@ const Footer = () => {
           </div>
           <div className="footer-col">
             <h4>Services</h4>
-            <a href="#" onClick={(e) => { e.preventDefault(); alert('ITR Filing'); }}>ITR Filing</a>
-            <a href="#" onClick={(e) => { e.preventDefault(); alert('GST Services'); }}>GST Services</a>
-            <a href="#" onClick={(e) => { e.preventDefault(); alert('Tax Planning'); }}>Tax Planning</a>
-            <a href="#" onClick={(e) => { e.preventDefault(); alert('Accounting Services'); }}>Accounting Services</a>
-    <a href="#" onClick={(e) => { e.preventDefault(); alert('tds'); }}>TDS Return</a>
+            <a href="/" onClick={(e) => { e.preventDefault(); alert('ITR Filing'); }}>ITR Filing</a>
+            <a href="/" onClick={(e) => { e.preventDefault(); alert('GST Services'); }}>GST Services</a>
+            <a href="/" onClick={(e) => { e.preventDefault(); alert('Tax Planning'); }}>Tax Planning</a>
+            <a href="/" onClick={(e) => { e.preventDefault(); alert('Accounting Services'); }}>Accounting Services</a>
+    <a href="/" onClick={(e) => { e.preventDefault(); alert('tds'); }}>TDS Return</a>
           </div>
           <div className="footer-col">
             <h4>Contact Info</h4>

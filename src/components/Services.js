@@ -24,7 +24,7 @@ const Services = () => {
               <div className="service-icon">{service.icon}</div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              <a href="#" className="service-link" onClick={(e) => { e.preventDefault(); alert(`Learn more about ${service.title}`); }}>Learn More →</a>
+              <a href="/" className="service-link" onClick={(e) => { e.preventDefault(); alert(`Learn more about ${service.title}`); }}>Learn More →</a>
             </div>
           ))}
         </div>
