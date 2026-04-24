@@ -22,9 +22,9 @@ const ConsultationForm = ({ isOpen, onClose }) => {
     // hidden field me value set kar do (EmailJS ke liye)
     form.current.full_time.value = formattedTime;
 
-    const serviceID = 'service_kn4jcsi';
-    const templateID = 'template_dojwcu2';
-    const publicKey = 'bvh0fS50vHHrYKupD';
+    const serviceID = 'service_viq4nbi';
+    const templateID = 'template_kr9wlzj';
+    const publicKey = 'haaTwEUdXe6rwf8f5';
 
     emailjs
       .sendForm(serviceID, templateID, form.current, publicKey)
@@ -55,7 +55,7 @@ const ConsultationForm = ({ isOpen, onClose }) => {
 
           <div className="form-group">
             <label>Full Name</label>
-            <input type="text" name="user_name" required placeholder="John Doe" />
+            <input type="text" name="user_name" required placeholder="Name" />
           </div>
 
           <div className="form-group">
@@ -65,7 +65,7 @@ const ConsultationForm = ({ isOpen, onClose }) => {
 
           <div className="form-group">
             <label>Email Address</label>
-            <input type="email" name="user_email" required placeholder="john@example.com" />
+            <input type="email" name="user_email" required placeholder="amjad@example.com" />
           </div>
 
           <div className="form-group">

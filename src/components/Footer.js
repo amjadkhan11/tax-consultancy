@@ -44,8 +44,8 @@ const Footer = () => {
           </div>
           <div className="footer-col">
             <h4>Contact Info</h4>
-            <p>📍 Plot 130, Sector 6, Vaishali, Ghaziabad - 201019</p>
-            <p>📧 Arpitbajoria19@gmail.com</p>
+            <p>📍 Sector 6, Vaishali, Ghaziabad - 201019</p>
+            <p>📧 info.arpitconsultancy@gmail.com</p>
             <p>📞 +91 62078 22029</p>
           </div>
         </div>

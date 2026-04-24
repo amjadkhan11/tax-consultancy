@@ -9,7 +9,7 @@ const ContactCTA = () => {
           <p>Get a free consultation with our tax experts. No obligation, just expert advice.</p>
           <div className="cta-buttons">
             <button className="btn-primary btn-large" onClick={() => alert('Schedule call clicked!')}>Schedule Free Call →</button>
-            <button className="btn-outline-white" onClick={() => alert('Call: +91 98765 43210')}>Call: +91 6207822029</button>
+            <button className="btn-outline-white" onClick={() => alert('Call: +91 6207822029 ')}>Call: +91 6207822029</button>
           </div>
         </div>
       </div>
